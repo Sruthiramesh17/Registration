@@ -1,0 +1,112 @@
+.landing-body{
+   background-image:linear-gradient(rgba(255,255,255,0.70), rgba(255,255,255,0.70)), url(bg.jpg);
+   margin: 0;
+   color: #fff;
+}
+
+
+h2{
+   color: black;
+   font-style: bold;
+   font-size: 48px;
+}
+
+.landing-page-dog{
+   height: 100%;
+   width: 50%;
+   position: absolute;
+   right:0;
+}
+
+.landing-page-text{
+   height: 100%;
+   width: 50%;
+   position: absolute;
+   left:0;
+   display: inline-block;
+   align-items: center;
+   text-align: center;
+}
+
+.landing-page-text h2{
+   text-align: center;
+   font-family: 'DynaPuff', cursive;
+   letter-spacing: 3px;
+   border-color: #fff;
+}
+
+button{
+   
+   background-color: lightgray;
+   padding: 15px 32px;
+   border-radius: 40px;
+   color: black;
+   text-align: center;
+   font-family: 'DynaPuff', cursive;
+   display: inline-block;
+   font-size: 40px;
+   align-items: center;
+   transition-duration: 0.4s;
+}
+
+button:hover{
+   background-color:white; /* Green */
+   color: gray;
+}
+
+.form-body{
+   background-image:url(formbg.jpg);
+   margin:0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   
+}
+
+#container{
+   position: absolute;
+   right: 25%;
+   margin: 10px;
+   height: 220%;
+   width: 50%;
+   background-color:rgba(255, 255, 255, 0.25) ;
+}
+
+.form-text{
+    color:rgb(160,64,0);
+    font-family: 'Hind', sans-serif;
+    font-size: 25px;
+}
+.form-header{
+   position: sticky;
+   margin: 5px;
+   color:rgb(160,64,0);
+   font-family: 'Hind', sans-serif;
+   text-align: center;
+   font-size: 40px;
+
+}
+hr{
+   color:powderblue;
+}
+h5{ 
+color: black;
+padding-left: 10px;
+font-family:  Arial, Helvetica, sans-serif;
+font-size: large;
+margin: 0;
+}
+form{
+ padding-left: 60px;
+}
+.thankyou-page-text h2{
+   text-align: center;
+   font-family: 'DynaPuff', cursive;
+   letter-spacing: 3px;
+   border-color: #fff;
+}
+.form-body input[type=text],input[type=int]{
+   border-radius:40px;
+   border-style: solid;
+}
